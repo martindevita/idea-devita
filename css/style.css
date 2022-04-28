@@ -22,6 +22,10 @@
     margin-top: 40px;
 }
 
+.filtrar{
+    justify-content: end;
+}
+
 select {
     font-size: 20px;
     margin-left: 1770px;
@@ -36,7 +40,8 @@ body{
 }
 
 .masbuscadasmain{
-    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .masbuscadas-main {

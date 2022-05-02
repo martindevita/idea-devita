@@ -6,7 +6,6 @@
 
 .encabezado {
     text-align: center;
-    /* text-align: center; */
     margin: 20px;  
     background-image: linear-gradient(to right, #F2F2F2, #E6E6E6, #D8D8D8, #BDBDBD, #A4A4A4)
 }
@@ -30,10 +29,29 @@
 .filtrar{
     justify-content: end;
 }
-@@ -55,7 +52,6 @@ body{
+select {
+    font-size: 20px;
+    margin-left: 1770px;
+}
+select option{
+    font-size: 15px;
+}
+body{
+    background-color: ghostwhite;
+}
+.masbuscadasmain{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.masbuscadas-main {
+    display: flex;
+    overflow-x: scroll;
+}
+.lasaltas {
+    border: solid black;
+    width: 250px;
     margin-left: 20px;
 }
-
 
 .godines {
     border: solid black;
@@ -97,8 +115,16 @@
     border-bottom: solid black 0.1px;
 }
 footer {
-    border: solid black;
+    margin-bottom: 10px;
 }
+
+.contacto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
 .sneakers {
     margin-left: 60px;
     margin-top: 30px;
@@ -220,6 +246,12 @@ footer {
     flex-wrap: wrap;
     flex-direction: row;
 }
+
+.video1{
+    display: flex;
+    justify-content: end;
+}
+
 @media screen and (max-width: 768px) {
     
     .zapas-grid{

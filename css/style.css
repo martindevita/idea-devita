@@ -5,21 +5,18 @@
 }
 
 .encabezado {
-    text-align: center;
+    /* text-align: center; */
     margin: 20px;  
     background-image: linear-gradient(to right, #F2F2F2, #E6E6E6, #D8D8D8, #BDBDBD, #A4A4A4)
-}
-
-.menu-principal {
-    text-decoration: none;
-    font-size: 27px;
-    display: flex;
-    justify-content: space-around;
 }
 
 .h1-1 {
     text-align: center;
     margin-top: 40px;
+}
+
+.suplog{
+    background-color: white;
 }
 
 .filtrar{
@@ -54,7 +51,6 @@ body{
     width: 250px;
     margin-left: 20px;
 }
-
 
 .godines {
     border: solid black;

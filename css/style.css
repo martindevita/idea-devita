@@ -17,6 +17,18 @@
     justify-content: space-around;
 }
 
+.tdv{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+}
+
+.imgsections{
+    width
+}
+
 .h1-1 {
     text-align: center;
     margin-top: 40px;

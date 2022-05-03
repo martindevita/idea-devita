@@ -25,13 +25,34 @@
     margin-left: calc(var(--bs-gutter-x)/ -2);
 }
 
-.imgsections{
-    width
+.img1{
+    width: 500px;
+    padding: 40px 40px 40px 40px;
+    background-color: grey;
+}
+
+.row{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.h3-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 20px;
 }
 
 .h1-1 {
-    text-align: center;
-    margin-top: 40px;
+    text-align: center ;
+    margin-top: 40px 40px 40px 40px;
+}
+
+.h2-1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 .suplog{
@@ -100,8 +121,13 @@ body{
     border: solid black;
     width: 250px;
     margin: 0px 20px;
-    
 }
+
+.pie-pagina{
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
 .grid-container4{
     border: 1px solid black;
     display: grid;

@@ -1,0 +1,10 @@
+@import "../variables/variables.scss";
+
+@mixin margen-abajo {
+    margin-bottom: 20px;
+}
+
+@mixin justificar-medio {
+    display: flex;
+    justify-content: center;
+}

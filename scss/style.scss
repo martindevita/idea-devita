@@ -1,0 +1,8 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+@import "./variables/variables.scss";
+@import "./sass2/mixins";
+@import "./partials/principal";

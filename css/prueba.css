@@ -6,3 +6,8 @@
   display: flex;
   justify-content: center;
   margin-bottom: 20px; }
+
+.encabezado {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px; }

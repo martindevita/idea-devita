@@ -1,0 +1,10 @@
+@import "../variables/variables.scss";
+@import "../sass2/mixins";
+
+.section4{
+    background-color: $grey;
+}
+
+.g-col-6 {
+    border: $border-solido $black $size-1;
+}

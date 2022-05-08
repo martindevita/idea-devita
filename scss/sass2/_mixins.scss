@@ -12,3 +12,13 @@
 @mixin alinear-medio {
     text-align: center;
 }
+
+@mixin flex-start {
+    display: flex;
+    justify-content: flex-start;
+}
+
+@mixin wrap-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}

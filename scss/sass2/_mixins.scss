@@ -5,7 +5,6 @@
 }
 
 @mixin justificar-medio {
-    display: flex;
     justify-content: center;
 }
 
@@ -14,11 +13,9 @@
 }
 
 @mixin flex-start {
-    display: flex;
     justify-content: flex-start;
 }
 
 @mixin wrap-wrap {
-    display: flex;
     flex-wrap: wrap;
 }

@@ -1,7 +1,8 @@
 @import "../variables/variables.scss";
 @import "../sass2/mixins";
 
-.h2-1{
+.h1-1{
+    @include dis-flex;
     @include justificar-medio;
     @include margen-abajo;
 }

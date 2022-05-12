@@ -19,3 +19,11 @@
 @mixin wrap-wrap {
     flex-wrap: wrap;
 }
+
+@mixin texto-medio {
+    text-align: center;
+}
+
+@mixin dis-flex {
+    display: flex;
+}

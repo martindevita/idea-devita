@@ -25,6 +25,12 @@
   margin-left: calc(var(--bs-gutter-x)/ -2);
 }
 
+.h3-3{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
 .img1{
   width: 500px;
   padding: 40px 40px 40px 40px;

@@ -1,11 +1,12 @@
 @import "../variables/variables.scss";
 @import "../sass2/mixins";
 
-
-.h2-3 {
-    @include justificar-medio;
+.h1-3{
+    @include texto-medio;
 }
 
-.balenzapas{
-    width: $size-300;
+.h3-3{
+    @include dis-flex;
+    @include justificar-medio;
+    @include margen-abajo;
 }

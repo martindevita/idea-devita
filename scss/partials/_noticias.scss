@@ -2,11 +2,10 @@
 @import "../sass2/mixins";
 
 .h1-3{
-    @include texto-medio;
+    text-align: $centro;
 }
 
-.h3-3{
-    @include dis-flex;
-    @include justificar-medio;
-    @include margen-abajo;
+.img1-3{
+
 }
+

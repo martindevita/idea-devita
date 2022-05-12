@@ -1,15 +1,7 @@
 @import "../variables/variables.scss";
 
-@mixin margen-abajo {
-    margin-bottom: 20px;
-}
-
 @mixin justificar-medio {
     justify-content: center;
-}
-
-@mixin alinear-medio {
-    text-align: center;
 }
 
 @mixin flex-start {
@@ -20,10 +12,18 @@
     flex-wrap: wrap;
 }
 
-@mixin texto-medio {
-    text-align: center;
-}
-
 @mixin dis-flex {
     display: flex;
+}
+
+@mixin jus-end {
+    justify-content: end;
+}
+
+@mixin items-end {
+    align-items: flex-end;
+}
+
+@mixin row{
+    flex-direction: row ;
 }

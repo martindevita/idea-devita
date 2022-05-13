@@ -4,12 +4,6 @@
   text-decoration: none;
 }
 
-.encabezado {
-  text-align: center;
-  margin: 20px;
-  background-image: linear-gradient(to right, #F2F2F2, #E6E6E6, #D8D8D8, #BDBDBD, #A4A4A4)
-}
-
 .menu-principal {
   text-decoration: none;
   font-size: 27px;
@@ -304,12 +298,7 @@ footer {
   .zapas-2{
       grid-area: zapas-2;
   }
-  .encabezado {
-      text-align: center;
-      width: 100%;
-      margin: 20px;      
-      background-color:rgb(238, 236, 236) ;
-  }
+
   .menu-principal a {
       text-decoration: none;
       font-size: 27px;
@@ -340,12 +329,7 @@ footer {
   .zapas-2{
       grid-area: zapas-2;
   }
-  .encabezado {
-      text-align: center;
-      width: 100%;
-      margin: 7px;      
-      background-color:rgb(238, 236, 236) ;
-  }
+
   .menu-principal a {
       text-decoration: none;
       font-size: 35px;

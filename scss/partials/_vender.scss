@@ -1,7 +1,6 @@
 @import "../variables/variables.scss";
 @import "../sass2/mixins";
 
-.vender-1{
-    @include dis-flex;
-    @include row;
+.ventas.1{
+    background-color: $gris-oscuro;
 }

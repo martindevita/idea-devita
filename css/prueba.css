@@ -17,6 +17,5 @@
 .h1-3 {
   text-align: center; }
 
-.vender-1 {
-  display: flex;
-  flex-direction:column-reverse; }
+.ventas.1 {
+  background-color: gray; }

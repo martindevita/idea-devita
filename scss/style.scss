@@ -4,9 +4,11 @@
     text-decoration: none;
 }
 
-@import "./variables/variables.scss";
+@import "./variables/variables";
 @import "./sass2/mixins";
 @import "./partials/principal";
 @import "./partials/atencion-cliente";
 @import "./partials/noticias";
 @import "./partials/vender";
+@import "./partials/css-viejo";
+@import "./partials/zapas";

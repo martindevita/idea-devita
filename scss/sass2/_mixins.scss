@@ -1,4 +1,4 @@
-@import "../variables/variables.scss";
+@import "../variables/variables";
 
 @mixin justificar-medio {
     justify-content: center;
@@ -26,4 +26,8 @@
 
 @mixin row{
     flex-direction: row ;
+}
+
+@mixin espaciado{
+    justify-content: space-between;
 }

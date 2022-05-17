@@ -1,8 +1,30 @@
-@import "../variables/variables.scss";
+@import "../variables/variables";
 @import "../sass2/mixins";
 
 .h1-1{
     @include dis-flex;
     @include justificar-medio;
     margin-bottom: $size-20;
+}
+
+.inicio-1{
+    @include dis-flex;
+    @include row;
+    @include justificar-medio;
+}
+
+.inicio-2{
+    margin-left: $size-20;
+}
+
+.ig{
+    width: $size-40;
+}
+
+.tw{
+    width: $size-40;
+}
+
+.wsp{
+    width: $size-40;
 }

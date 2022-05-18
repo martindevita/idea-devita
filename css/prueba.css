@@ -34,9 +34,6 @@
 .h1-3 {
   text-align: center; }
 
-#body-v {
-  background-color: ghostwhite; }
-
 .menu-principal {
   text-decoration: none;
   font-size: 27px;
@@ -305,3 +302,6 @@ footer {
 
 .h5-2 {
   color: black; }
+
+.img-00 {
+  object-fit: cover; }

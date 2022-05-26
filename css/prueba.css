@@ -303,5 +303,10 @@ footer {
 .h5-2 {
   color: black; }
 
-.img-00 {
-  object-fit: cover; }
+.columna-zapas {
+  display: flex;
+  flex-direction: row; }
+
+.columna-zapas2 {
+  display: flex;
+  flex-direction: row; }

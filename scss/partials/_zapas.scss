@@ -9,12 +9,44 @@
     color: $black;
 }
 
-.columna-zapas{
-    display: flex;
-    flex-direction: row;
-}
-
 .columna-zapas2{
     display: flex;
-    flex-direction: row;
+    @include wrap-wrap;
+}
+
+.card-zapas{
+    margin: 20px 20px 20px 20px;
+}
+
+.sober-container{
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 40px;
+}
+
+.zapas{
+    @include dis-flex;
+    @include row;
+}
+
+.boton-zapas{
+    @include dis-flex;
+    @include justificar-medio;
+    justify-content: space-around;
+}
+
+.flex-card{
+    @include dis-flex;
+    @include row;
+    @include wrap-wrap;
+}
+
+.boton-comprar{
+    @include dis-flex;
+    justify-content: end;
+    margin-bottom: 15px;
+}
+
+.card-body{
+    text-decoration: none;
 }

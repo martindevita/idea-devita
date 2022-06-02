@@ -303,10 +303,36 @@ footer {
 .h5-2 {
   color: black; }
 
-.columna-zapas {
+.columna-zapas2 {
+  display: flex;
+  flex-wrap: wrap; }
+
+.card-zapas {
+  margin: 20px 20px 20px 20px; }
+
+.sober-container {
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-top: 40px; }
+
+.zapas {
   display: flex;
   flex-direction: row; }
 
-.columna-zapas2 {
+.boton-zapas {
   display: flex;
-  flex-direction: row; }
+  justify-content: center;
+  justify-content: space-around; }
+
+.flex-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.boton-comprar {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 15px; }
+
+.card-body {
+  text-decoration: none; }

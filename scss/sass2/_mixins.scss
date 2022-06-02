@@ -1,8 +1,5 @@
 @import "../variables/variables";
 
-@mixin justificar-medio {
-    justify-content: center;
-}
 
 @mixin flex-start {
     justify-content: flex-start;
@@ -30,4 +27,8 @@
 
 @mixin espaciado{
     justify-content: space-between;
+}
+
+@mixin justificar-medio {
+    justify-content: center;
 }

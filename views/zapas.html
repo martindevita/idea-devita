@@ -13,7 +13,7 @@
 
 <body>
 
-    <div id="all">
+    <div id="all"> 
 
         <header>
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -56,17 +56,6 @@
 
         <div class="container">
             <h1 class="h1-2 text-center my-3">El Mejor Lugar Para Comprar Sneakers</h1>
-            <div class="dropdown filtrar">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2"
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                    Filtrar
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <li><button class="dropdown-item" type="button">size</button></li>
-                    <li><button class="dropdown-item" type="button">price</button></li>
-                    <li><button class="dropdown-item" type="button">brand</button></li>
-                </ul>
-            </div>
         </div>
 
         <div class="container my-3">
@@ -95,377 +84,274 @@
             </div>
         </div>
 
-        <div class="container">
-            <div class="columna-zapas col-xl-2">
+        <div class="container my-5">
+            <div class="boton-zapas">
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Filtrar Por
+                    Marca</button>
 
-                <div>
-                    <h3>MARCAS</h3>
-                </div>
-                <div>
-                    <a href="">
-                        <h5>ADIDAS</h5>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <h5>NIKE</h5>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <h5>JORDAN</h5>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <h5>NEW-BALANCE</h5>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <h5>REEBOK</h5>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <h5>OTHERS BRANDS</h5>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <h5>LUXURY BRANDS</h5>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <h5>COLLECTIONS</h5>
-                    </a>
-                </div>
+                    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+                        aria-labelledby="offcanvasWithBothOptionsLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Marcas</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div>
+                                <a href="">
+                                    <p>ADIDAS<p>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <p>NIKE</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <p>JORDAN</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <p>NEW-BALANCE</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <p>REEBOK</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <p>OTHERS BRANDS</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <p>LUXURY BRANDS</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <p>COLLECTIONS</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
+                    aria-controls="offcanvasTop">Filtrar por Talle</button>
 
+                <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop"
+                    aria-labelledby="offcanvasTopLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasTopLabel">Offcanvas top</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        ...
+                    </div>
+                </div>
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Filtar por Precio</button>
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                    aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        ...
+                    </div>
+                </div>
             </div>
-            <div class="columna-zapas col-xl-10">
-
-                <div class="columna-zapas2">
-                    <div class="card" style="width: 18rem;">
+            <div class="my-5">
+                <div class="row flex-card">
+                    <div class="card card-zapas" style="width: 18rem;">
                         <a href="">
-                            <img src="../multimedia/air.jpg" class="card-img-top" alt="...">
+                            <div>
+                                <img src="../multimedia/yeezy 700.png" class="card-img-top" alt="AdidasYeezy">
+                            </div>
                             <div class="card-body">
-                                <h5>NOMBRE</h5>
-                                <p class="card-text">$0000</p>
+                                <h5 class="card-subtitle mb-2 text-muted">Adidas Yeezy 700 V3</h5>
+                                <p class="card-text">Azael</p>
+                                <span class="card-text">$0000</span>
+                            </div>
+                            <div class="boton-comprar">
+                                <button type="button" class="btn btn-success">Comprar</button>
+                            </div>
+                        </a>
+                        
+                    </div>
+                    <div class="card card-zapas" style="width: 18rem;">
+                        <a href="">
+                            <div>
+                                <img src="../multimedia/Nike Air Force 1 Low - tripleblack.png" class="card-img-top" alt="airforce 1-tripleblack">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-subtitle mb-2 text-muted">Nike Air Force 1 Low</h5>
+                                <p class="card-text">Triple Black</p>
+                                <span class="card-text">$0000</span>
+                            </div>
+                            <div class="boton-comprar">
+                                <button type="button" class="btn btn-success">Comprar</button>
                             </div>
                         </a>
                     </div>
-
-                    <div class="card" style="width: 18rem;">
+                    <div class="card card-zapas" style="width: 18rem;">
                         <a href="">
-                            <img src="../multimedia/tillas2.png" class="card-img-top" alt="...">
+                            <div>
+                                <img src="../multimedia/airforce 1 - triplewhite .png" class="card-img-top" alt="airforce 1-triplewhite">
+                            </div>
                             <div class="card-body">
-                                <h5>NOMBRE</h5>
-                                <p class="card-text">$0000</p>
+                                <h5 class="card-subtitle mb-2 text-muted">Nike Air Force 1 Low</h5>
+                                <p class="card-text">Triple White</p>
+                                <span class="card-text">$0000</span>
+                            </div>
+                            <div class="boton-comprar">
+                                <button type="button" class="btn btn-success">Comprar</button>
                             </div>
                         </a>
                     </div>
-
-                    <div class="card" style="width: 18rem;">
+                    <div class="card card-zapas" style="width: 18rem;">
                         <a href="">
-                            <img src="../multimedia/tillas3.png" class="card-img-top" alt="...">
+                            <div>
+                                <img src="../multimedia/all star off white (1).png" class="card-img-top" alt="allstar offwhite">
+                            </div>
                             <div class="card-body">
-                                <h5>NOMBRE</h5>
-                                <p class="card-text">$0000</p>
+                                <h5 class="card-subtitle mb-2 text-muted">Converse All-Star 70 Hi</h5>
+                                <p class="card-text">Off-White</p>
+                                <span class="card-text">$0000</span>
+                            </div>
+                            <div class="boton-comprar">
+                                <button type="button" class="btn btn-success">Comprar</button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card card-zapas" style="width: 18rem;">
+                        <a href="">
+                            <div>
+                                <img src="../multimedia/balenciaga track.png" class="card-img-top" alt="balenciaga-track">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-subtitle mb-2 text-muted">Balenciaga Track</h5>
+                                <p class="card-text">White</p>
+                                <span class="card-text">$0000</span>
+                            </div>
+                            <div class="boton-comprar">
+                                <button type="button" class="btn btn-success">Comprar</button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card card-zapas" style="width: 18rem;">
+                        <a href="">
+                            <div>
+                                <img src="../multimedia/nike sb grateful dead beard (1).png" class="card-img-top" alt="nike sb grateful dead beard">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-subtitle mb-2 text-muted">Nike SB Dunk Low</h5>
+                                <p class="card-text">Grateful Dead Bears Orange</p>
+                                <span class="card-text">$0000</span>
+                            </div>
+                            <div class="boton-comprar">
+                                <button type="button" class="btn btn-success">Comprar</button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card card-zapas" style="width: 18rem;">
+                        <a href="">
+                            <div>
+                                <img src="../multimedia/jordan 1 x travis scott.png" class="card-img-top" alt="jordan 1 high Trvis Scott">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-subtitle mb-2 text-muted">Jordan 1 Retro High</h5>
+                                <p class="card-text">Travis Scott</p>
+                                <span class="card-text">$0000</span>
+                            </div>
+                            <div class="boton-comprar">
+                                <button type="button" class="btn btn-success">Comprar</button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card card-zapas" style="width: 18rem;">
+                        <a href="">
+                            <div>
+                                <img src="../multimedia/Jordan 1 Retro High - Dior.png" class="card-img-top" alt="Jordan 1 High Dior">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-subtitle mb-2 text-muted">Jordan 1 Retro High</h5>
+                                <p class="card-text">Dior</p>
+                                <span class="card-text">$0000</span>
+                            </div>
+                            <div class="boton-comprar">
+                                <button type="button" class="btn btn-success">Comprar</button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card card-zapas" style="width: 18rem;">
+                        <a href="">
+                            <div>
+                                <img src="../multimedia/nike dunk panda.png" class="card-img-top" alt="nike dunk Panda">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-subtitle mb-2 text-muted">Nike Dunk Low</h5>
+                                <p class="card-text">Retro White Black Panda</p>
+                                <span class="card-text">$0000</span>
+                            </div>
+                            <div class="boton-comprar">
+                                <button type="button" class="btn btn-success">Comprar</button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card card-zapas" style="width: 18rem;">
+                        <a href="">
+                            <div>
+                                <img src="../multimedia/nike dunk low - offwhite lot50.png" class="card-img-top" alt="nike dunk - offwhite lot50">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-subtitle mb-2 text-muted">Nike Dunk Low</h5>
+                                <p class="card-text">Off-White Lot 50</p>
+                                <span class="card-text">$0000</span>
+                            </div>
+                            <div class="boton-comprar">
+                                <button type="button" class="btn btn-success">Comprar</button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card card-zapas" style="width: 18rem;">
+                        <a href="">
+                            <div>
+                                <img src="../multimedia/Jordan 4 Retro Metallic Purple.png" class="card-img-top" alt="Jordan 4 Retro">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-subtitle mb-2 text-muted">Jordan 4 Retro</h5>
+                                <p class="card-text">Metallic Purple</p>
+                                <span class="card-text">$0000</span>
+                            </div>
+                            <div class="boton-comprar">
+                                <button type="button" class="btn btn-success">Comprar</button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card card-zapas" style="width: 18rem;">
+                        <a href="">
+                            <div>
+                                <img src="../multimedia/Louis Vuitton LV Trainer Green.png" class="card-img-top" alt="Louis Vuitton LV Trainer">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-subtitle mb-2 text-muted">Louis Vuitton LV Trainer</h5>
+                                <p class="card-text">Green</p>
+                                <span class="card-text">$0000</span>
+                            </div>
+                            <div class="boton-comprar">
+                                <button type="button" class="btn btn-success">Comprar</button>
                             </div>
                         </a>
                     </div>
                 </div>
-
             </div>
         </div>
-        <!-- <main id="main">
-
-                <div id="main-container">
-
-                    <div class="zapas-grid">
-
-                        <div class="zapas-1">
-
-                            <div class="marcas">
-                                <h2 class="brand">MARCAS</h2>
-
-                                <div class="adidas">
-                                    <a href="#">ADIDAS</a>
-                                </div>
-
-                                <div class="nike">
-                                    <a href="#">NIKE</a>
-                                </div>
-
-                                <div class="jordan">
-                                    <a href="#">JORDAN</a>
-                                </div>
-
-                                <div class="reebok">
-                                    <a href="#">REEBOK</a>
-                                </div>
-
-                                <div class="new-balance">
-                                    <a href="#">NEW-BALANCE</a>
-                                </div>
-
-                                <div class="otras-marcas">
-                                    <a href="#">LUXURY BRANDS</a>
-                                </div>
-
-                                <div class="lujosas">
-                                    <a href="#">OTHERS BRANDS </a>
-                                </div>
-
-                                <div class="coleccion">
-                                    <a href="#">COLECTION</a>
-                                </div>
-
-                            </div>
-
-
-                        </div>
-
-                        <div>
-                            <div class="zapas-venta">
-
-                                <div class="card" style="width: 18rem;">
-                                    <a href="">
-                                        <img src="../multimedia/air.jpg" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5>NOMBRE</h5>
-                                            <p class="card-text">$0000</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="card" style="width: 18rem;">
-                                    <a href="">
-                                        <img src="../multimedia/tillas2.png" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5>NOMBRE</h5>
-                                            <p class="card-text">$0000</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="card" style="width: 18rem;">
-                                    <a href="">
-                                        <img src="../multimedia/tillas3.png" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5>NOMBRE</h5>
-                                            <p class="card-text">$0000</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="card" style="width: 18rem;">
-                                    <a href="">
-                                        <img src="../multimedia/tillas4.png" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5>NOMBRE</h5>
-                                            <p class="card-text">$0000</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="card" style="width: 18rem;">
-                                    <a href="">
-                                        <img src="../multimedia/tillas5.png" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5>NOMBRE</h5>
-                                            <p class="card-text">$0000</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="card" style="width: 18rem;">
-                                    <a href="">
-                                        <img src="../multimedia/tillas6.png" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5>NOMBRE</h5>
-                                            <p class="card-text">$0000</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="card" style="width: 18rem;">
-                                    <a href="">
-                                        <img src="../multimedia/tillas7.png" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5>NOMBRE</h5>
-                                            <p class="card-text">$0000</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="card" style="width: 18rem;">
-                                    <a href="">
-                                        <img src="../multimedia/tillas8.png" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5>NOMBRE</h5>
-                                            <p class="card-text">$0000</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="card" style="width: 18rem;">
-                                    <a href="">
-                                        <img src="../multimedia/zapas-standard.png" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5>NOMBRE</h5>
-                                            <p class="card-text">$0000</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card" style="width: 18rem;">
-                                    <a href="">
-                                        <img src="../multimedia/zapas-standard.png" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5>NOMBRE</h5>
-                                            <p class="card-text">$0000</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="card" style="width: 18rem;">
-                                    <a href="">
-                                        <img src="../multimedia/zapas-standard.png" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5>NOMBRE</h5>
-                                            <p class="card-text">$0000</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card" style="width: 18rem;">
-                                    <a href="">
-                                        <img src="../multimedia/zapas-standard.png" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5>NOMBRE</h5>
-                                            <p class="card-text">$0000</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="card" style="width: 18rem;">
-                                    <a href="">
-                                        <img src="../multimedia/zapas-standard.png" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5>NOMBRE</h5>
-                                            <p class="card-text">$0000</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="card" style="width: 18rem;">
-                                    <a href="">
-                                        <img src="../multimedia/zapas-standard.png" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5>NOMBRE</h5>
-                                            <p class="card-text">$0000</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="card" style="width: 18rem;">
-                                    <a href="">
-                                        <img src="../multimedia/zapas-standard.png" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5>NOMBRE</h5>
-                                            <p class="card-text">$0000</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="card" style="width: 18rem;">
-                                    <a href="">
-                                        <img src="../multimedia/zapas-standard.png" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5>NOMBRE</h5>
-                                            <p class="card-text">$0000</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="card" style="width: 18rem;">
-                                    <a href="">
-                                        <img src="../multimedia/zapas-standard.png" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5>NOMBRE</h5>
-                                            <p class="card-text">$0000</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="card" style="width: 18rem;">
-                                    <a href="">
-                                        <img src="../multimedia/zapas-standard.png" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5>NOMBRE</h5>
-                                            <p class="card-text">$0000</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="card" style="width: 18rem;">
-                                    <a href="">
-                                        <img src="../multimedia/zapas-standard.png" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5>NOMBRE</h5>
-                                            <p class="card-text">$0000</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="card" style="width: 18rem;">
-                                    <a href="">
-                                        <img src="../multimedia/zapas-standard.png" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5>NOMBRE</h5>
-                                            <p class="card-text">$0000</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="card" style="width: 18rem;">
-                                    <a href="">
-                                        <img src="../multimedia/zapas-standard.png" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5>NOMBRE</h5>
-                                            <p class="card-text">$0000</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="card" style="width: 18rem;">
-                                    <a href="">
-                                        <img src="../multimedia/zapas-standard.png" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5>NOMBRE</h5>
-                                            <p class="card-text">$0000</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-
-                                <div class="card" style="width: 18rem;">
-                                    <a href="">
-                                        <img src="../multimedia/zapas-standard.png" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5>NOMBRE</h5>
-                                            <p class="card-text">$0000</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </main> -->
-    </div>
-
     </div>
 
     <div class="container">

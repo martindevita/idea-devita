@@ -32,6 +32,9 @@
 .g-col-6 {
   border: solid black 1px; }
 
+.h1-ac {
+  font-family: 'Courier New', Courier, monospace, serif; }
+
 .h1-3 {
   text-align: center; }
 
@@ -94,6 +97,12 @@ figure {
 .art-right {
   border-bottom: 1px solid black;
   margin-bottom: 35px; }
+
+@media only screen and (max-width: 768px) {
+  .card-news {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; } }
 
 .h1-ventas {
   font-family: 'Courier New', Courier, monospace, serif; }

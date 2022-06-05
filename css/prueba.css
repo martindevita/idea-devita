@@ -6,7 +6,8 @@
 .h1-1 {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  font-family: 'Courier New', Courier, monospace, serif; }
 
 .inicio-1 {
   display: flex;
@@ -53,7 +54,7 @@
 #news h2 {
   font-family: Georgia, 'Times New Roman', Times, serif; }
 
-#news p {
+.news-p {
   font-size: 16px;
   margin-right: 20px;
   margin-left: 20px;
@@ -72,6 +73,30 @@ figure {
 
 .parrafo1 {
   border-bottom: 1px solid black; }
+
+.card-news {
+  display: flex;
+  flex-direction: row; }
+
+.boton-cardnews {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+  margin-bottom: 10px; }
+
+.text-cardnews {
+  text-align: start; }
+
+.h1-news {
+  border-bottom: 1px solid black;
+  font-family: 'Courier New', Courier, monospace, serif; }
+
+.art-right {
+  border-bottom: 1px solid black;
+  margin-bottom: 35px; }
+
+.h1-ventas {
+  font-family: 'Courier New', Courier, monospace, serif; }
 
 .menu-principal {
   text-decoration: none;
@@ -370,5 +395,8 @@ footer {
 
 .boton-comprar {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   margin-bottom: 15px; }
+
+.h1-zapas {
+  font-family: 'Courier New', Courier, monospace, serif; }

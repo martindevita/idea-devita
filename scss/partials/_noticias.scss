@@ -29,7 +29,7 @@
     font-family:Georgia, 'Times New Roman', Times, serif ;
 }
 
-#news p{
+.news-p{
     font-size: 16px;
     margin-right: $size-20;
     margin-left: $size-20;
@@ -52,4 +52,30 @@ figure{
 
 .parrafo1{
     border-bottom: 1px solid black;
+}
+
+.card-news{
+    @include dis-flex;
+    @include row;
+}
+
+.boton-cardnews{
+    @include dis-flex;
+    @include jus-end;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.text-cardnews{
+    text-align: start;
+}
+
+.h1-news{
+    border-bottom: 1px solid black;
+    font-family: 'Courier New', Courier, monospace, serif;
+}
+
+.art-right{
+    border-bottom: 1px solid black;
+    margin-bottom: 35px;
 }

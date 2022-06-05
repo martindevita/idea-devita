@@ -43,10 +43,6 @@
 
 .boton-comprar{
     @include dis-flex;
-    justify-content: end;
-    margin-bottom: 15px;
-}
-
-.card-body{
-    text-decoration: none;
+    @include jus-end;
+    margin-bottom: $size-15;
 }

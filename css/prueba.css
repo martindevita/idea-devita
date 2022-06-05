@@ -34,6 +34,45 @@
 .h1-3 {
   text-align: center; }
 
+#news .news-block {
+  display: flex;
+  width: 100%; }
+
+.left-block {
+  width: 64%;
+  padding-right: 1%; }
+
+.right-block {
+  width: 34%;
+  padding-left: 1%; }
+
+#news h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 36px; }
+
+#news h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
+#news p {
+  font-size: 16px;
+  margin-right: 20px;
+  margin-left: 20px;
+  color: grey; }
+
+.p-left {
+  font-family: Arial, Helvetica, serif; }
+
+figure {
+  position: relative; }
+
+.news1 {
+  width: 100%;
+  padding: 10px;
+  padding-bottom: 5px; }
+
+.parrafo1 {
+  border-bottom: 1px solid black; }
+
 .menu-principal {
   text-decoration: none;
   font-size: 27px;
@@ -333,6 +372,3 @@ footer {
   display: flex;
   justify-content: end;
   margin-bottom: 15px; }
-
-.card-body {
-  text-decoration: none; }

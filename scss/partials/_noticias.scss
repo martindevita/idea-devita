@@ -4,3 +4,52 @@
 .h1-3{
     text-align: $centro;
 }
+
+#news .news-block{
+    @include dis-flex;
+    width: 100%;
+}
+
+.left-block{
+    width: 64%;
+    padding-right: 1%;
+}
+
+.right-block{
+    width: 34%;
+    padding-left: 1%;
+}
+
+#news h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+}
+
+#news h2{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
+#news p{
+    font-size: 16px;
+    margin-right: $size-20;
+    margin-left: $size-20;
+    color: grey;
+}
+.p-left{
+    font-family: Arial, Helvetica, serif
+}
+
+
+figure{
+    position: relative;
+}
+
+.news1{
+    width: 100%;
+    padding: $size-10;
+    padding-bottom: $size-5;
+}
+
+.parrafo1{
+    border-bottom: 1px solid black;
+}
